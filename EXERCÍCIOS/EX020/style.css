@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif, Times, serif;
+}
+
+a{
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.l1:hover  {
+    text-decoration: underline ;
+    color: chartreuse;
+}
+.l2:hover {
+    text-decoration: underline;
+    color: rgb(28, 201, 224);
+   
+}
+.l3:hover {
+    text-decoration: underline;
+    color: rgb(202, 54, 35);
+}
+
+a:active{
+   color: black;
+}
+
+a::before{
+    content: "→ ";
+    color: black;
+
+}
+
+a::after{
+   content: " ←";
+   text-decoration: none;
+   font-weight: normal;
+   font-family: cursive;
+   color: black;
+}
