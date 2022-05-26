@@ -43,11 +43,11 @@ tbody > tr:nth-child(even){
     background-color: rgb(255, 127, 127);
 }
 
-tfoot{
-    height: 1000px;
-}
 
 thead{
     position: sticky;
     top: -1px;
 }
+ p{
+     width: 50vh;
+ }
